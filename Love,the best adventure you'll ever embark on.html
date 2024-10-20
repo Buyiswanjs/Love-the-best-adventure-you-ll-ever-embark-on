@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>❤️Hope you like it❤️</title> 
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCADYAVcDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEH/8QAGRABAQEAAwAAAAAAAAAAAAAAAAECESFB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEEB//EABYRAQEBAAAAAAAAAAAAAAAAAAABMf/aAAwDAQACEQMRAD8Ay4B05iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFF1NZ1rOpxrNubL5Z1YgExQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/9k=');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      animation: backgroundFade 10s infinite alternate;
+    }
+    .message-container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8); /* Slightly transparent background for readability */
+      padding: 20px;
+      border-radius: 10px;
+      animation: fadeIn 3s ease-in-out;
+    }
+    h1 {
+      color: #333;
+      font-size: 3em;
+      margin-top: 20px;
+      animation: zoomIn 2s ease-in-out;
+    }
+    .glow {
+      color: blue;
+      text-shadow: 0 0 10px blue,
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes backgroundFade {
+      0% { filter: brightness(1); }
+      100% { filter: brightness(0.7); }
+    }
+    @keyframes zoomIn {
+      0% { transform: scale(0.5); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <video controls width="600">
+      <source src="Hi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h1 class="glow" align="center"><font color="white">Hi baby</font></h1>
+  </div>
+</body>
+</html>
